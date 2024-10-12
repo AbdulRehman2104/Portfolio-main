@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family: 'SF Pro Text',-apple-system,BlinkMacSystemFont,Roboto,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+
+}
+.main-container{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    overflow: scroll;
+}
+.nav-box{
+    display: flex;
+    justify-content: space-between;
+    height: 8%;
+    background-color: white;
+    font-weight: bold;
+    align-items: center;
+    padding: 10px 20px;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 7px 9px;
+    font-weight: bold;
+    border-radius: 4px;
+    border-style: solid;
+    font-size: 14px;
+}
+.main-colors{
+    display: flex;
+    flex-wrap: wrap;
+    height: 84%;
+}
+.color{
+    background-color: #f6e58d;  
+    height: 25%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.text{
+    padding:0 8px;
+}
+.copy{
+    border: 2px solid #f6e58d;
+    padding: 10px 25px;
+    color: #f6e58d;
+    align-self: center;
+}
+.copy1{
+    border: 2px solid#ff9ff3;
+    padding: 10px 25px;
+    color: #ff9ff3;
+    margin-top: 30px;
+}
+.copy2{
+    border: 2px solid #feca57;
+    padding: 10px 25px;
+    color: #feca57;
+    margin-top: 30px;
+}
+.copy3{
+    border: 2px solid #ff6b6b;
+    padding: 10px 25px;
+    color:#ff6b6b;
+    margin-top: 30px;
+}
+.copy4{
+    border: 2px solid #48dbfb;
+    padding: 10px 25px;
+    color:#48dbfb;
+    margin-top: 30px;
+}
+.copy5{
+    border: 2px solid #1dd1a1;
+    padding: 10px 25px;
+    color: #1dd1a1;
+    margin-top: 30px;
+}
+.copy6{
+    border: 2px solid#f368e0;
+    padding: 10px 25px;
+    color: #f368e0;
+    margin-top: 30px;
+}
+.copy7{
+    border: 2px solid #ff9f43;
+    padding: 10px 25px;
+    color:#ff9f43;
+    margin-top: 30px;
+}
+.copy8{
+    border: 2px solid #ee5253;
+    padding: 10px 25px;
+    color: #ee5253;
+    margin-top: 30px;
+}
+.copy9{
+    border: 2px solid #0abde3;
+    padding: 10px 25px;
+    color: #0abde3;
+    margin-top: 30px;
+}
+.copy10{
+    border: 2px solid #10ac84;
+    padding: 10px 25px;
+    color:#10ac84;
+    margin-top: 30px;
+}
+.copy11{
+    border: 2px solid#00d2d3;
+    padding: 10px 25px;
+    color: #00d2d3;
+    margin-top: 30px;
+}
+.copy12{
+    border: 2px solid#54a0ff;
+    padding: 10px 25px;
+    color:#54a0ff;
+    margin-top: 30px;
+}
+.copy13{
+    border: 2px solid#5f27cd;
+    padding: 10px 25px;
+    color:#5f27cd;
+    margin-top: 30px;
+}
+.copy14{
+    border: 2px solid#c8d6e5;
+    padding: 10px 25px;
+    color:#c8d6e5;
+    margin-top: 30px;
+}
+.copy15{
+    border: 2px solid #576574;
+    padding: 10px 25px;
+    color:#576574;
+    margin-top: 30px;
+}
+.copy16{
+    border: 2px solid#01a3a4;
+    padding: 10px 25px;
+    color:#01a3a4;
+    margin-top: 30px;
+}
+.copy17{
+    border: 2px solid #2e86de;
+    padding: 10px 25px;
+    color: #2e86de;
+    margin-top: 30px;
+}
+.copy18{
+    border: 2px solid #341f97;
+    padding: 10px 25px;
+    color:#341f97;
+    margin-top: 30px;
+}
+.copy19{
+    border: 2px solid #8395a7;
+    padding: 10px 25px;
+    color:#8395a7;
+    margin-top: 30px;
+}
+.copy20{
+    border: 2px solid #222f3e;
+    padding: 10px 25px;
+    color: #222f3e;
+    margin-top: 30px;
+}
+.copy:hover{
+    border: 2px solid white;
+    padding: 10px 25px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+@media screen and (max-width:500px){
+    .copy{
+        display: none;
+    }
+    .text{
+        display: none;
+    }
+}

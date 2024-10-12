@@ -1,0 +1,111 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+
+.main-box{
+    background-color:rgb(0, 0, 0);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.box{
+    margin-top: 20px;
+    height: 280px;
+    width: 307px;
+    background-color: #19435c;
+    padding: 11px 13px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+
+}
+.btn{
+    padding: 1rem 2rem;
+    background-color:   #19435c;
+    border-radius: 4rem;
+    font-size: 1rem;
+    color:rgb(196, 186, 186);
+    font-weight:800;
+    border: 2px solid black;
+ 
+  
+}
+.btn:hover{
+    background-color:black;
+    color: #19435c;
+    
+}
+.box1{
+    background-image: url(../periodic\ table.jpeg);
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+background-color: white;
+
+}
+.box2{
+    background-image: url(./Screenshot\ 2024-08-09\ 011415.png);
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+background-color: rgb(244,39,121);
+
+}
+.box3{
+    background-image: url(./3assignment.png);
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+background-color: white;
+
+}
+.box4{
+    background-image: url(./ass-4.png);
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+background-color:rgb(240,255,255);
+
+}
+.box5{
+    background-image: url(./apple\ clone.png);
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+background-color:rgb(245,245,247)
+}
+.box6{
+    background-image: url(./ass-7.png);
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+background-color:rgb(60,64,198)
+}
+.box7{
+    background-image: url(./salt\ and\ papper.png);
+background-position: top;
+background-size: contain;
+background-repeat: no-repeat;
+background-color:rgb(245,245,247)
+}
+.box8{
+    background-image: url(./gemail\ clone.png);
+background-position: top;
+background-size: contain;
+background-repeat: no-repeat;
+background-color:rgb(245,245,247)
+}
+.box9{
+    background-image: url(./js\ 1.PNG);
+    background-position: top;
+background-size: contain;
+background-repeat: no-repeat;
+background-color:rgb(245,245,247)
+}

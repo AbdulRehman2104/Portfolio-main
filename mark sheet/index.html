@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <form id="marksForm">
+    <label for="englishmarks">Enter your English Marks:</label>
+    <input type="number" id="englishmarks" name="englishmarks" min="0" max="100" required>
+
+    <label for="urdumarks">Enter your Urdu Marks:</label>
+    <input type="number" id="urdumarks" name="urdumarks" min="0" max="100" required>
+
+    <label for="mathmarks">Enter your Math Marks:</label>
+    <input type="number" id="mathmarks" name="mathmarks" min="0" max="100" required>
+
+    <label for="sciencemarks">Enter your science Marks:</label>
+    <input type="number" id="sciencemarks" name="sciencemarks" min="0" max="100" required>
+
+    <label for="pstmarks">Enter your PST Marks:</label>
+    <input type="number" id="pstmarks" name="pstmarks" min="0" max="100" required>
+
+    <button type="submit">Submit</button>
+
+
+  </form>
+  <table id="marksheetTable">
+    <thead>
+      <tr>
+        <th>Subject</th>
+        <th>Total Marks</th>
+        <th>Obtained Marks</th>
+      </tr>
+    </thead>
+    <tbody id="tablebody">
+    </tbody>
+  </table>
+  <div class="can">
+  <h3 id="obtainedMarks"></h3>
+  <h3 id="obtainedGrade"></h3>
+  <h3 id="obtainedPer"></h3>
+</div>
+  <script src="app.js">
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+}
+nav{
+    height: 90px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    color: white;
+    margin-right: 25px;
+    margin-top: 12px;
+    
+}
+li{
+    font-size: medium;
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn{
+    color: white;
+    border-radius: 35px;
+    border-color: white;
+    height: 50px;
+    font-size: small;
+}
+.logo{
+    align-items: center;
+}
+.lines{
+    display: none;
+}
+.wlcm{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    background-color: yellowgreen;
+    height: 120px;
+    width: 220px;
+    background-image: url(./assets/card1.png);
+    background-position: center;
+}
+.card-btn{
+    color: white;
+    font-size: small;
+    border-radius: 35px;
+    height: 45px;
+    width: 110px;
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    margin-bottom: 40px;
+}
+.s-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.main-card-div{
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.frnch{
+    width: 100%;
+    height: auto;
+    background-color: #0F0F0F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.webp{
+    background-image: url(./assets/img1.webp);
+    background-position: center;
+}
+.webp2{
+    background-image: url(./assets/im2.png);
+    background-position: center;
+    background-size: contain;
+}
+.webp3{
+    background-image: url(./assets/web3.webp);
+    background-position: center;
+    margin-bottom: 40px;
+}
+.cards{
+    height: 300px;
+    width: 530px;
+}
+.m-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    column-gap: 180px;
+    justify-content: center;
+}
+.exp{
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+.e1{
+    background-image: url(./assets/e1.png);
+    
+}
+
+
+
+
+
+
+@media screen and (max-width: 900px){
+    
+    ul{
+        display: none;
+    }
+    .btn1{
+        display: none;
+    }
+    .lines{
+        display: block;
+    }
+    
+    
+}
